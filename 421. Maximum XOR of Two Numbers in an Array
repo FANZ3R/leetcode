@@ -1,0 +1,123 @@
+class Solution {//ye code maine ek hi baar mei sirf smjke hi poora krdiya tha
+                //bina dekhe thanks to codestorywithmik
+public:
+        //iska sabse efficient method jo aata hai wo trie se aata hai 
+        //aur wo bhi bit trie se
+        //bit trie mei do hi element hote
+        //left chilkd and right child  ..... left ko ham 0 se signify krte and right ko 1 se
+
+        struct trieNode{
+            trieNode* left;
+            trieNode* right;
+        };
+
+        void insert(trieNode* root,int &num){
+
+            //toh pehle crawler lunga har bit ko store krne ke lie
+            trieNode* crawler = root;
+
+            //ab dekh derakha hai constraints mei 32 bits tak jaaskta binary mei hamara number
+            //toh mai har bit nikaalunga number ki aur consecutively left ya right move
+            //karunga base on every bit(0 ke lie left nad 1 ke lie right)
+
+            for(int i=31;i>=0;i--)
+            {
+                int ith_bit = (num>>i)&1;  //right shift by i bits aur fir and 1 se ith bit dega
+
+                if(ith_bit==0)
+                {
+                    if(crawler->left == NULL)
+                    {
+                        crawler->left = new trieNode();
+                    }
+                    crawler=crawler->left;
+                }
+                else   //mtlb bit 1 hai
+                {
+                    if(crawler->right == NULL)
+                    {
+                        crawler->right = new trieNode();
+                    }
+                     crawler = crawler->right; 
+                }
+
+            }
+
+        }
+
+    int findmaxxor(trieNode* root,int &num)
+    {
+        //ek crawler lelenge hare bit ke lie check karne ke lie
+        trieNode* crawler = root;
+        int maxxor=0;
+
+        for(int i=31;i>=0;i--)
+        {
+            int ith_bit = (num>>i)&1;
+
+            if(ith_bit == 1)
+            {
+                //toh muje xor karna hoga 0 se maxxor paane ke lie
+                if(crawler->left!=NULL)
+                {
+                    maxxor+=pow(2,i);
+                    crawler=crawler->left;
+                }
+                else
+                {
+                    //agr 0 nahi present mtlb left nhi present tha
+                    //toh majbooranvas muje right jaana padega 1 bit pe
+                    // and 1 ^1 will give 0 toh yaha pe maxxor pe 0 contribution hoga
+                    crawler=crawler->right;
+                }
+            }
+            else // mtlb ith bit0 hai
+            {
+                //ab ith bit 0 hai toh muje 1 se xor karna padega maxxor find krne ke lie
+
+                if(crawler->right!=NULL)
+                {
+                    maxxor+=pow(2,i);
+                    crawler=crawler->right;
+                }
+                else
+                {
+                    crawler=crawler->left;
+                }
+
+            }
+        }
+
+        return maxxor;
+    }    
+
+    int findMaximumXOR(vector<int>& nums) {
+
+        //pehle toh root define kardete hai
+        trieNode* root = new trieNode();
+
+        //ab saare bits ko store kardunga apne trie mei
+
+        for(int &n:nums)
+        {
+            insert(root,n);
+        }
+
+        //ab saare bits store hogye trie mei mere
+        //now i will have to 
+        int maxxor=0;
+
+        for(int i=0;i<nums.size();i++)
+        {
+            int temp = findmaxxor(root,nums[i]);
+            maxxor = max(maxxor,temp);
+        }
+
+        return maxxor;
+
+
+
+
+        
+    }
+};
