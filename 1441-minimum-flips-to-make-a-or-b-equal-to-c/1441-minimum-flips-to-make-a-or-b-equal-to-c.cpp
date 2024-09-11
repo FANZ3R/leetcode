@@ -13,7 +13,7 @@ public:
 
         int count =0;
 
-        while(a || b || c)
+        while(a || b || c) //loop tbtk chalna chalna chaiye jabtk saare 0 nhi hojate ek bhi nonzero hoga toh chalega loop
         {
             if((c&1)==1)//agr rightmostbit in c is 1
             {
