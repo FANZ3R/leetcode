@@ -2,40 +2,18 @@ class Solution {
 public:
     int minFlips(int a, int b, int c) {
 
-        //mia general mehtod nahi lagaskta isme
-        //muje har bit ko check karke hi karna hoga
-        //do hi case jab c ki right most bit 1 hai agr 
-        //toh muje koi bhi 1 chlaegei
-        //bas muje tb flip krne ki necessity hogi jab dono 0 honge is case mei
+        int result = ((a|b)^c);//flips
 
-        // aur jab right most c ki 0 hogi
-        //toh dono ko 0 hona necessary hai agr nhi hai toh dono ko flip karna padega
+        //??isme ek cheez missing hai jab dono a and b ki bits 1 hongi
+        //a&b
 
-        int count =0;
+        int result1 =  (a&b);
 
-        while(a || b || c) //loop tbtk chalna chalna chaiye jabtk saare 0 nhi hojate ek bhi nonzero hoga toh chalega loop
-        {
-            if((c&1)==1)//agr rightmostbit in c is 1
-            {
-                //toh koi bhi 1 chalega bas agr dono zero hai to kisi ek ko flip kardo
-                if((a&1)==0 &&(b&1)==0)
-                    count++;
-            }
-            else        //rightmost bit in c is 0
-            {
-                //toh is case mei dono ka 0 hona necessary hai
-                if((a&1)==1)  count++;
-                if((b&1)==1)  count++;
-            }
+        int result2 = (result1 & result);
 
-            // har check ke baad har ek ko right shift karta jaunga
+        return __builtin_popcount(result) + __builtin_popcount(result2);
 
-            a=a>>1;
-            b=b>>1;
-            c=c>>1;
-        } 
 
-        return count;
         
     }
 };
