@@ -27,8 +27,10 @@ public:
 
 
 
-        auto lambda=[&](int &a,int &b)
-        {
+        auto lambda=[&](int &a,int &b) 
+        {//isme & lagana capture data [] (isko capture data bolte)  hn toh capture data mei & lagana tb important hojata
+            //agr ham comparator mei main function ke baahar ka kux use krre honge
+            
             int ca = __builtin_popcount(a);
             int cb =  __builtin_popcount(b);
 
