@@ -2,32 +2,26 @@ class Solution {
 public:
     int minBitFlips(int start, int goal) {
 
-        int maxi=max(start,goal);
+        //dekh agr ham xor karenge start aur goal ka toh hamei 
+        //jaha pe bhi bit differ krri hogi numbers ki whaa pe 1 milega
+        //kyuki xor ka result 1 tbbhi aata jb bit differs
 
-        int count=0;
-        while(maxi)
-        {
-            count++;
-            maxi/=2;
-        }
+        //and finaly after resulting we will count the number of 1 bits
+
+        int result = start ^ goal;
+
 
         int ans=0;
 
-        while(count--)
+        while(result)
         {
-            int ith_bit1=(start&1);
-            int ith_bit2=(goal&1);
-
-            if(ith_bit1 != ith_bit2)
+            if(result&1 == 1)
             ans++;
 
-            start=start>>1;
-            goal=goal>>1;
+            result=result>>1;
         }
 
-
         return ans;
-
         
     }
 };
