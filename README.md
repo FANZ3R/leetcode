@@ -16,5 +16,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0137-single-number-ii](https://github.com/FANZ3R/leetcode/tree/master/0137-single-number-ii) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/FANZ3R/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
+## Array
+|  |
+| ------- |
+| [0137-single-number-ii](https://github.com/FANZ3R/leetcode/tree/master/0137-single-number-ii) |
 <!---LeetCode Topics End-->
