@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/FANZ3R/leetcode/tree/master/0137-single-number-ii) |
 | [0260-single-number-iii](https://github.com/FANZ3R/leetcode/tree/master/0260-single-number-iii) |
 | [0338-counting-bits](https://github.com/FANZ3R/leetcode/tree/master/0338-counting-bits) |
+| [1435-xor-queries-of-a-subarray](https://github.com/FANZ3R/leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/FANZ3R/leetcode/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/FANZ3R/leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0137-single-number-ii](https://github.com/FANZ3R/leetcode/tree/master/0137-single-number-ii) |
 | [0260-single-number-iii](https://github.com/FANZ3R/leetcode/tree/master/0260-single-number-iii) |
+| [1435-xor-queries-of-a-subarray](https://github.com/FANZ3R/leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/FANZ3R/leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/FANZ3R/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
@@ -53,4 +55,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+## Prefix Sum
+|  |
+| ------- |
+| [1435-xor-queries-of-a-subarray](https://github.com/FANZ3R/leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 <!---LeetCode Topics End-->
