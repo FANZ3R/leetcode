@@ -30,12 +30,13 @@ public:
     }
     TreeNode* pruneTree(TreeNode* root) {
 
-        TreeNode* temp= dfshelper(root);
+       return dfshelper(root);
 
         //agr is sab ke baad maine root ko check nahi kiya
         //agr root hi 0 hoga toh null ajaega
 
-
-        return temp;
+        // agr mai separately root ke lie call karunga first
+        //toh muje root ke lie bhi check karana padega
+       
     }
 };
