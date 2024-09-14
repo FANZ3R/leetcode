@@ -40,6 +40,8 @@ public:
 
         fill(root->left,temp,sum,targetSum);
         fill(root->right,temp,sum,targetSum);
+        //ab agr wo leaf node nahi tha par fir bhi us  path mei aage nhi milra muje result
+        //toh muje fir bhi pop back karna padega
         temp.pop_back();
     }
 
