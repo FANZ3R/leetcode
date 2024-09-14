@@ -14,7 +14,7 @@ public:
 
     vector<vector<int>> result;
 
-    void fill(TreeNode* root, vector<int> temp,int sum,int targetSum)
+    void fill(TreeNode* root, vector<int> &temp,int sum,int targetSum)
     {
         if(root==NULL)
         return;
@@ -25,13 +25,22 @@ public:
         if(root->left==NULL && root->right==NULL)
         {
             if(sum==targetSum)
-            result.push_back(temp);
+            {
+                result.push_back(temp);
+            }
+            //aur agr tera leaf node hai aur sum temp ke barabar nahi hai 
+            //toh mai popback karunga
+
+                temp.pop_back();
+                // sum-=root->val;
+            
 
             return ;
         }
 
         fill(root->left,temp,sum,targetSum);
         fill(root->right,temp,sum,targetSum);
+        temp.pop_back();
     }
 
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
