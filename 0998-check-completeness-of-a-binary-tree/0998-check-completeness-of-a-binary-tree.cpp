@@ -11,49 +11,43 @@
  */
 class Solution {
 public:
-    bool isCompleteTree(TreeNode* root) {
-        
 
-        //dekh isko simply bfs se bana skte ham dekh
-        //method kya hai ki mai har node ke children push  karta jaaunga queue mei 
-        //aur mai ek past mei null dekha hai ki nhai wo variable maintain karta rahunga
+    int count(TreeNode* root)
+    {
+        if(root==NULL)
+        return 0;
 
-        //agr maine past me null dekha hai aur fir muje number milta hai //toh mtlb false
-        //kyuki iska mtlb ye hua left child null aur right me khai node hai toh false
-
-        //bfs
-        
-        queue<TreeNode*> q;
-        q.push(root);
-
-        bool past=false;//ye represent karega past mei null dekha hai ki nahi
-
-        while(!q.empty())
-        {
-            TreeNode* t=q.front();
-
-            q.pop();
-
-            if(t==NULL)
-            {
-                past=true;
-            }
-            else
-            {
-                if(past==true)//mtlb muje node dikha par mera past mei null dekha hua
-                return false;
-
-                else
-                {
-                    q.push(t->left);
-                    q.push(t->right);
-                }
-
-            }
-
-        }
+        return 1+count(root->left)+count(root->right);
+    }
 
 
+    bool dfs(TreeNode* root,int i,int nodes_count)
+    {
+        if(root==NULL)
         return true;
+
+        if(i>nodes_count)
+        return false;
+
+        return dfs(root->left,2*i,nodes_count) &&
+               dfs(root->right,2*i+1,nodes_count); //ab mei left aur right mei check karunga inko fir
+    }
+
+
+    bool isCompleteTree(TreeNode* root) {
+
+        //using dfs approcah 
+        //method ye hai ki agr mera index of node count of nodes se jaada hogye 
+        //toh wo left most nhai hai //mtlb wo right mei hai khi instead of left
+
+        //so pehle to saare nodes count karleta hui
+
+        int nodes_count=count(root);
+
+        //ab mai dfs call karunga index 1 deke
+        int i=1;
+
+        return dfs(root,i,nodes_count);
+        
     }
 };
