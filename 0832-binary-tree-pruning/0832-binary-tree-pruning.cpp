@@ -11,22 +11,31 @@
  */
 class Solution {
 public:
-    TreeNode* pruneTree(TreeNode* root) {
 
-        //bas mai bottom se up karaskta hu code ko
-        //phle end pe reach karjaunga
-
+    TreeNode* dfshelper(TreeNode* root)
+    {
         if(root==NULL)
         return root;
 
-        root->left=pruneTree(root->left);
-        root->right=pruneTree(root->right);
-        //pehle end tak reach karunga nodes ke
+        //pehle mai end tak jaunga
+
+        root->left=dfshelper(root->left);
+        root->right=dfshelper(root->right);
 
         if(root->val==0 && root->left==NULL && root->right==NULL)
         return NULL;
 
+        else
         return root;
-        
+    }
+    TreeNode* pruneTree(TreeNode* root) {
+
+        TreeNode* temp= dfshelper(root);
+
+        //agr is sab ke baad maine root ko check nahi kiya
+        //agr root hi 0 hoga toh null ajaega
+
+
+        return temp;
     }
 };
