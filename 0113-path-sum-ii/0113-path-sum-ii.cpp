@@ -32,7 +32,7 @@ public:
             //toh mai popback karunga
 
                 temp.pop_back();
-                // sum-=root->val;
+                sum-=root->val;
             
 
             return ;
