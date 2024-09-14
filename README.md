@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0113-path-sum-ii](https://github.com/FANZ3R/leetcode/tree/master/0113-path-sum-ii) |
 | [0832-binary-tree-pruning](https://github.com/FANZ3R/leetcode/tree/master/0832-binary-tree-pruning) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -74,12 +75,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0113-path-sum-ii](https://github.com/FANZ3R/leetcode/tree/master/0113-path-sum-ii) |
 | [0832-binary-tree-pruning](https://github.com/FANZ3R/leetcode/tree/master/0832-binary-tree-pruning) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0113-path-sum-ii](https://github.com/FANZ3R/leetcode/tree/master/0113-path-sum-ii) |
 | [0832-binary-tree-pruning](https://github.com/FANZ3R/leetcode/tree/master/0832-binary-tree-pruning) |
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
+## Backtracking
+|  |
+| ------- |
+| [0113-path-sum-ii](https://github.com/FANZ3R/leetcode/tree/master/0113-path-sum-ii) |
 <!---LeetCode Topics End-->
