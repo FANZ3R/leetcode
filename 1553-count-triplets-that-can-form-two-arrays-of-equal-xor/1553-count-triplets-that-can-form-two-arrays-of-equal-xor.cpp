@@ -10,11 +10,11 @@ public:
         {
             int t=arr[i];
 
-            for(int j=i+1;j<n;j++)
+            for(int k=i+1;k<n;k++)
             {
-                t^=arr[j];
+                t^=arr[k];
                 if(t==0)
-                ans+=j-i;
+                    ans+=k-i;//dekh beech mei mai j daalskta hu jitne valid honge toh triplet banane ke lie aayenge merpe k-i 
             }
         }
         
