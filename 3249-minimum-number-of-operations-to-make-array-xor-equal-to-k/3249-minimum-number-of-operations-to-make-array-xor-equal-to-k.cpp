@@ -16,7 +16,7 @@ public:
 
         int final_xor=xor_nums^k;
 
-        int ans=__builtin_popcount(final_xor);
+        int ans=__builtin_popcount(final_xor);//set bits dedega final xor ki
         return ans;
     }
 };
