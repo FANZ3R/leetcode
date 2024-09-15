@@ -12,48 +12,35 @@
 class Solution {
 public:
 
-    //brute force approach
-    //mai isme har root pe jaunga fir uske har child pe chalajaunga
-    int maxd;
+   
+//ab optimal approach mei mai har node ke paas jaane ke waqt maxvalue and minvalue pass karunga us path mei
+//aur jaisi mai leaf node hit karunga toh mai difference nikaal lunga maxvalue and min value ka
 
-    void maxdiff(TreeNode* root, TreeNode* child)
-    {
-        if(root==NULL || child==NULL)
-        return;
-
-        maxd=max(maxd,abs(root->val-child->val));
-
-        maxdiff(root,child->left);
-        maxdiff(root,child->right);
-
-        return ;
-    }
-
-
-    void findmaxdiff(TreeNode* root)
+    int findmaxdiff(TreeNode* root,int maxv,int minv)
     {
         if(root==NULL)
-        return ;
+        return maxv-minv;
 
-        maxdiff(root,root->left);
-        maxdiff(root,root->right);
-        
+        maxv=max(maxv,root->val);
+        minv=min(minv,root->val);
 
-        findmaxdiff(root->left);
-        findmaxdiff(root->right);
+        int l=findmaxdiff(root->left,maxv,minv);  // left wale path se difference
+        int r=findmaxdiff(root->right,maxv,minv); // right wale path se difference
 
-        return ;
+        return max(l,r); //maxdifference dono paths se
+
+
     }
-
 
     int maxAncestorDiff(TreeNode* root) {
 
-        //har path pe jaaunga aur uske child ke difference se max aur min nikaal lunga
+        //ab initally min v Nd maxv dono root ki value hongi
+        int minv=root->val;
+        int maxv=root->val;
 
-        maxd=-1;
+        return findmaxdiff(root,maxv,minv);
 
-        findmaxdiff(root);
-        return maxd;
+
         
     }
 };
