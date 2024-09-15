@@ -21,7 +21,8 @@ public:
         minp = min(minp, root->val);
 
         
-        ans = max(ans, max(abs(maxp - root->val), abs(minp - root->val)));
+        int diff= max(abs(maxp-root->val),abs(minp-root->val));
+        ans=max(ans,diff);
 
         
         maxdiff(root->left, maxp, minp);
