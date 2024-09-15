@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/FANZ3R/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/FANZ3R/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
+| [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/FANZ3R/leetcode/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
 ## Array
 |  |
 | ------- |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/FANZ3R/leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/FANZ3R/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
+| [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/FANZ3R/leetcode/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
 ## Dynamic Programming
 |  |
 | ------- |
