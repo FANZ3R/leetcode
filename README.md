@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1435-xor-queries-of-a-subarray](https://github.com/FANZ3R/leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/FANZ3R/leetcode/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/FANZ3R/leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/FANZ3R/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/FANZ3R/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/FANZ3R/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
@@ -52,15 +53,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/FANZ3R/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 ## String
 |  |
 | ------- |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/FANZ3R/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Prefix Sum
 |  |
 | ------- |
 | [1435-xor-queries-of-a-subarray](https://github.com/FANZ3R/leetcode/tree/master/1435-xor-queries-of-a-subarray) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/FANZ3R/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 ## Tree
 |  |
 | ------- |
