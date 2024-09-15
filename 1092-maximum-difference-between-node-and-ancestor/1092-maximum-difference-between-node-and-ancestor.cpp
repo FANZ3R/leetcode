@@ -11,28 +11,49 @@
  */
 class Solution {
 public:
-    int ans = 0;
 
-    void maxdiff(TreeNode* root, int maxp, int minp) {
-        if (root == nullptr) return;
+    //brute force approach
+    //mai isme har root pe jaunga fir uske har child pe chalajaunga
+    int maxd;
 
-        
-        maxp = max(maxp, root->val);
-        minp = min(minp, root->val);
+    void maxdiff(TreeNode* root, TreeNode* child)
+    {
+        if(root==NULL || child==NULL)
+        return;
 
-        
-        int diff= max(abs(maxp-root->val),abs(minp-root->val));
-        ans=max(ans,diff);
+        maxd=max(maxd,abs(root->val-child->val));
 
-        
-        maxdiff(root->left, maxp, minp);
-        maxdiff(root->right, maxp, minp);
+        maxdiff(root,child->left);
+        maxdiff(root,child->right);
+
+        return ;
     }
 
-    int maxAncestorDiff(TreeNode* root) {
-        if (root == nullptr) return 0;
 
-        maxdiff(root, root->val, root->val);
-        return ans;
+    void findmaxdiff(TreeNode* root)
+    {
+        if(root==NULL)
+        return ;
+
+        maxdiff(root,root->left);
+        maxdiff(root,root->right);
+        
+
+        findmaxdiff(root->left);
+        findmaxdiff(root->right);
+
+        return ;
+    }
+
+
+    int maxAncestorDiff(TreeNode* root) {
+
+        //har path pe jaaunga aur uske child ke difference se max aur min nikaal lunga
+
+        maxd=-1;
+
+        findmaxdiff(root);
+        return maxd;
+        
     }
 };
