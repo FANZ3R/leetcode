@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0112-path-sum](https://github.com/FANZ3R/leetcode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/FANZ3R/leetcode/tree/master/0113-path-sum-ii) |
+| [0623-add-one-row-to-tree](https://github.com/FANZ3R/leetcode/tree/master/0623-add-one-row-to-tree) |
 | [0832-binary-tree-pruning](https://github.com/FANZ3R/leetcode/tree/master/0832-binary-tree-pruning) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -84,12 +85,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/FANZ3R/leetcode/tree/master/0112-path-sum) |
+| [0623-add-one-row-to-tree](https://github.com/FANZ3R/leetcode/tree/master/0623-add-one-row-to-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/FANZ3R/leetcode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/FANZ3R/leetcode/tree/master/0113-path-sum-ii) |
+| [0623-add-one-row-to-tree](https://github.com/FANZ3R/leetcode/tree/master/0623-add-one-row-to-tree) |
 | [0832-binary-tree-pruning](https://github.com/FANZ3R/leetcode/tree/master/0832-binary-tree-pruning) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -98,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0112-path-sum](https://github.com/FANZ3R/leetcode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/FANZ3R/leetcode/tree/master/0113-path-sum-ii) |
+| [0623-add-one-row-to-tree](https://github.com/FANZ3R/leetcode/tree/master/0623-add-one-row-to-tree) |
 | [0832-binary-tree-pruning](https://github.com/FANZ3R/leetcode/tree/master/0832-binary-tree-pruning) |
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 ## Backtracking
