@@ -26,16 +26,17 @@ public:
     //aur teesra case sirf root sahi dera baaki na left se sahi mila na hi right se 
     //toh isko include karke fir return bhi krskte kyuki ye baaki path mei jud skta hai
 
-    int solve(TreeNode* root,int &maxsum)
+    int maxsum;
+    int solve(TreeNode* root)
     {
         if(root==NULL)
         return 0;
 
         //phle to mai left aur right se sum nikaal leta recursively neeche jaake
 
-        int l = solve(root->left,maxsum);
+        int l = solve(root->left);
 
-        int r= solve(root->right,maxsum);
+        int r= solve(root->right);
 
         int neeche_hi_ans_milgaya = l+r+root->val;//1
 
@@ -55,9 +56,9 @@ public:
 
     int maxPathSum(TreeNode* root) {
 
-        int maxsum=INT_MIN;
+        maxsum=INT_MIN;
 
-        solve(root,maxsum);
+        solve(root);
         
         return maxsum;
     }
