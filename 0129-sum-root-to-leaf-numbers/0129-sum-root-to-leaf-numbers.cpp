@@ -12,52 +12,51 @@
 class Solution {
 public:
 
-    string getAllstrings(TreeNode* root,vector<string> &st, string curr)
+    string getAllStrings(TreeNode* root, string curr, vector<string> & st)
     {
-        if(root == NULL)
+        if(root==NULL)
         return "";
 
         curr+=to_string(root->val);
 
-        // string s2= to_string(root->val) + getAllstrings(root->right,st);
+        //ab agr mera leaf node pe hu to us string ko push kardunga
 
         if(root->left==NULL && root->right==NULL)
         {
-                st.push_back(curr);
-            
-            // if(st.find(s2)==st.end())
-            //     st.insert(s2);
+            st.push_back(curr);
         }
 
-        if(root->left!=NULL)
-        getAllstrings(root->left,st,curr);
+        if(root->left!=NULL)//ab agr left hai to left mei traverse karenge
+        {
+            getAllStrings(root->left,curr,st);
+        }
 
-        if(root->right!=NULL)
-        getAllstrings(root->right,st,curr);
+        if(root->right!=NULL)//ab agr mera right hoga to right mei traverse karenge
+        {
+            getAllStrings(root->right,curr,st);
+        }
 
         return curr;
 
-    }
 
+
+
+    }
 
     int sumNumbers(TreeNode* root) {
 
         vector<string> st;
-
         string curr="";
 
-        getAllstrings(root,st,curr);
+        getAllStrings(root,curr,st);
 
+        int sum=0;
 
-        int ans=0;
-
-        for(auto s: st)
+        for(auto s:st)
         {
-            cout<<s<<endl;
             int y=stoi(s);
-            ans+=y;
-        }    
-
-        return ans;
+            sum+=y;
+        }
+        return sum;        
     }
 };
