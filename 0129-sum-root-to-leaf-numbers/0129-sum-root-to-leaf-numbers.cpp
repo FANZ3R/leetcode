@@ -12,51 +12,46 @@
 class Solution {
 public:
 
-    string getAllStrings(TreeNode* root, string curr, vector<string> & st)
+//ab isiko string mei na lekr ke direfct number banate hue chalenge 
+//aur jaisi mai leaf node reach karunga to total sum mei add krte rahegne
+
+    int getSum(TreeNode* root,int currsum,int &totalsum)
     {
         if(root==NULL)
-        return "";
+        return 0;
 
-        curr+=to_string(root->val);
+        currsum=(currsum*10)+ root->val;
 
-        //ab agr mera leaf node pe hu to us string ko push kardunga
+        //ab agr leaf node pe aagya
+        //toh total sum ko update krdegne
 
-        if(root->left==NULL && root->right==NULL)
+        if(root->left==NULL && root->right == NULL)
         {
-            st.push_back(curr);
+            totalsum+=currsum;
         }
 
-        if(root->left!=NULL)//ab agr left hai to left mei traverse karenge
-        {
-            getAllStrings(root->left,curr,st);
-        }
 
-        if(root->right!=NULL)//ab agr mera right hoga to right mei traverse karenge
-        {
-            getAllStrings(root->right,curr,st);
-        }
+        //ab left mei sum banate rahnge
+        if(root->left)
+        getSum(root->left,currsum,totalsum);
 
-        return curr;
+        //ab right mei bhi sum banate chalejaao
+        if(root->right)
+        getSum(root->right,currsum,totalsum);
 
 
-
-
+        return currsum;
+        //kyuki currsum pe hi add hote rhnege numbers recursively
     }
+
 
     int sumNumbers(TreeNode* root) {
 
-        vector<string> st;
-        string curr="";
+        int currsum=0;
+        int totalsum=0;
 
-        getAllStrings(root,curr,st);
+        getSum(root,currsum,totalsum);
 
-        int sum=0;
-
-        for(auto s:st)
-        {
-            int y=stoi(s);
-            sum+=y;
-        }
-        return sum;        
+        return totalsum;        
     }
 };
