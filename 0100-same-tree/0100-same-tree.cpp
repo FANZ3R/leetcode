@@ -22,12 +22,13 @@ public:
         if(root1==NULL || root2==NULL)
         return false;
 
-        if(root1->val == root2->val)
-        {
-            return check(root1->left,root2->left) && check(root1->right,root2->right);
-        }
+        //value bhi same hona chaiye
 
+        if(root1->val != root2->val)
         return false;
+        
+
+        return check (root1->left,root2->left) && check(root1->right,root2->right);
 
     }
 
