@@ -3,6 +3,16 @@ public:
     int findMinDifference(vector<string>& timePoints) {
 
         //converting hours to minutes first of all
+        //mai saare hours ek hi format mei convert karleta aise mqai assani hogi
+
+        //abdekh circular nature hai time ka
+        //y e24 hrs ke baad firse 0 se start hota hai
+        //yaani ki 1440 minutes ke baad firse start hogaa waise hi
+
+        //toh mai 1440 wala comparison bhi karunga
+        //aur jab mai sort karra hu apne time array ko to starting me 0 wala hoskta an dend mei 23:59 something wala hoskta
+        //toh these can be closer based on circular nature toh inko alg se compare karunga end mei
+        //baakiyo ko to karta hi rahunga
 
         vector<int> time;
 
