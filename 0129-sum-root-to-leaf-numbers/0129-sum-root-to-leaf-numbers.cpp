@@ -12,46 +12,32 @@
 class Solution {
 public:
 
-//ab isiko string mei na lekr ke direfct number banate hue chalenge 
-//aur jaisi mai leaf node reach karunga to total sum mei add krte rahegne
-
-    int getSum(TreeNode* root,int currsum,int &totalsum)
+    int getSum(TreeNode* root, int currsum)
     {
         if(root==NULL)
         return 0;
 
-        currsum=(currsum*10)+ root->val;
+        currsum = (currsum*10)+root->val;
 
-        //ab agr leaf node pe aagya
-        //toh total sum ko update krdegne
-
-        if(root->left==NULL && root->right == NULL)
-        {
-            totalsum+=currsum;
-        }
-
-
-        //ab left mei sum banate rahnge
-        if(root->left)
-        getSum(root->left,currsum,totalsum);
-
-        //ab right mei bhi sum banate chalejaao
-        if(root->right)
-        getSum(root->right,currsum,totalsum);
-
-
+        //ab agr leaf node hai toh currsum ko return kardunga
+        if(!root->left && !root->right)
         return currsum;
-        //kyuki currsum pe hi add hote rhnege numbers recursively
-    }
 
+        //ab mai left se sum nikaal lunga 
+        int l=getSum(root->left,currsum);
+
+        //aur right se sum nikaal lunga
+        int r= getSum(root->right,currsum);
+
+        //at the end dono ke left se aur right se sum ko addd kardunga
+        return l+r;
+    }
 
     int sumNumbers(TreeNode* root) {
 
+        //directly aur simple usse bhi karskte hai
         int currsum=0;
-        int totalsum=0;
-
-        getSum(root,currsum,totalsum);
-
-        return totalsum;        
+        return getSum(root,currsum);
+        
     }
 };
