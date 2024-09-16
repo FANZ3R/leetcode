@@ -11,30 +11,60 @@
  */
 class Solution {
 public:
+    bool isSameTree(TreeNode* p, TreeNode* q) {//
 
-    bool check(TreeNode* root1,TreeNode* root2)
-    {
-        //agr dono nodes tere null hue to true
-        if(root1==NULL && root2==NULL)
+    //isko ham bfs se bhi banaskte
+    //do queue leluinga aur value chek karta jaaunga aur check karunga agr sirf ek null hua toh  false
+    //similar to dfs
+
+        if(p==NULL && q==NULL)
         return true;
 
-        //ab agr koi ek hi null hota hai..kyuki dono nmull wal check phle hi kardiya
-        if(root1==NULL || root2==NULL)
+        if(p==NULL || q==NULL)
         return false;
 
-        //value bhi same hona chaiye
+        queue<TreeNode*> q1;
+        queue<TreeNode*> q2;
 
-        if(root1->val != root2->val)
-        return false;
+        q1.push(p);
+        q2.push(q);
         
+        while(!q1.empty() && !q2.empty())
+        {
 
-        return check (root1->left,root2->left) && check(root1->right,root2->right);
+            TreeNode* node1=q1.front();
+            q1.pop();
 
-    }
+            TreeNode* node2= q2.front();
+            q2.pop();
 
-    bool isSameTree(TreeNode* p, TreeNode* q) {
+            if(node1->val != node2->val)
+            return false;
 
-        return check(p,q);
+            if(node1->left!=NULL && node2->left!=NULL)
+            {
+                q1.push(node1->left);
+                q2.push(node2->left);
+            }
+            else if(node1->left!=NULL || node2->left!=NULL)//mtlb sirf ekn hi nul hai
+            {
+                return false;
+            }
+            if(node1->right!=NULL && node2->right!=NULL)
+            {
+                q1.push(node1->right);
+                q2.push(node2->right);
+            }
+            else if(node1->right!=NULL || node2->right!=NULL)//mtlb sirf ekn hi nul hai
+            {
+                return false;
+            }
+
+        }
+
+        return true;
+
+
         
     }
 };
