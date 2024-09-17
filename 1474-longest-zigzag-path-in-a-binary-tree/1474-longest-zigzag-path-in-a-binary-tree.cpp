@@ -12,40 +12,30 @@
 class Solution {
 public:
 
-    //dekh mai left aur right jaskta hu aur zig zag me hi jaana hai
-    //but agr left ke baad left hi jaata hu toh naya path start hojaega
-    //toh naye paath ke lie fir steps ko fir se initilaize karna padega
-    //puraana hatake
-
+    //optimised approach 
+    //mai hamesa l,r pair bhejunga is node ka next node pe
+    //aur zig zag banane ke lie agr mei left mei jaara hu left ko zero kardunga aur right pe left +1 bhejunga
+    //tbhi toh mera zigzag path badega phle left fir right then left and vice versa
+    //toh mai zig zag path banane ke lie left pe rihgt+1 bhejunga when going left aur right ko zero bhejdunga
+    //aur aisi alternate karta rahunga
 
     int maxPath=0;
 
-    void solve(TreeNode* root,int steps,bool goleft)
+    void solve(TreeNode* root, int l ,int r)//l and r har node ka pair represent karenge
     {
         if(root==NULL)
-        return ;
+        return;
 
-        maxPath=max(maxPath,steps);
+        maxPath=max({maxPath,l,r});
 
-        if(goleft==true)
-        {
-            solve(root->left,steps+1,false);
-            solve(root->right,1,true);//ideally toh left jaana tha but right gyaa toh reinitialize krdunga steps apne
-            
-        }
+        solve(root->left,r+1,0);
+        solve(root->right,0,l+1);
 
-        else//mtlb muje right jana hai ideally
-        {
-            solve(root->right,steps+1,true);
-            solve(root->left,1,false);
-        }
-
-        return ;
     }
     int longestZigZag(TreeNode* root) {
 
-        solve(root,0,true);
-        solve(root,0,false);
+        solve(root,0,0);
+                // l  r
 
         return maxPath;
         
