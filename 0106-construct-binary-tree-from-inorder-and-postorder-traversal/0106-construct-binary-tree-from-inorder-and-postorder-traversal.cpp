@@ -20,6 +20,7 @@ public:
 
         if(instart>inend)
         return NULL;
+        //ye condition necessary hai ye batayega hamei kab stop karna hai building apne tree ko
 
         //phle to root banadunga theeke 
         TreeNode* root= new TreeNode(postorder[postend]);
