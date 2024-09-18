@@ -24,12 +24,11 @@ public:
         q.push(root);
 
         
-        int l=0;
+        int l=1;
 
         while(!q.empty())
         {
               
-            l++;
             int currlevel_sum=0;
 
             int n=q.size();
@@ -52,11 +51,14 @@ public:
                 }
             }
 
+            //yaha pe end pe compare karunga kyuki sum acculate level ka while(n--) waale loop ke baad hora hoga
+
             if(maxsum<currlevel_sum)
             {
                 maxsum=currlevel_sum;
                 level=l;
             }
+            l++;
 
         }
 
