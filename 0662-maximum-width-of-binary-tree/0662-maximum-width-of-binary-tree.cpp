@@ -57,7 +57,7 @@ public:
 
                 if(node->left)
                 {
-                    q.push({node->left,2*idx+1});
+                    q.push({node->left,2*idx+1}); //0 se start krre kyuki root ko
                 }
 
                 if(node->right)
