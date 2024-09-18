@@ -11,47 +11,58 @@
  */
 class Solution {
 public:
-
-    map<int,int>mp;
-
-    void DfsSum(TreeNode* root,int level)
-    {
-        if(root==NULL)
-        return ;
-
-        mp[level]+=root->val;
-
-        DfsSum(root->left,level+1);
-        DfsSum(root->right,level+1);
-
-    }
-
     int maxLevelSum(TreeNode* root) {
-
-        //dfs se bhi karskta mai isko
-        //dfs mei level send kardunga 
-        //aur ek map rakhunga level,uska sum
-        //finally us level pe sum update karta rahunga
-
-        DfsSum(root,1);
-        //startign me level 1 rahega root ka
-
+        
+        int level =0;
         int maxsum=INT_MIN;
-        int level=0;
 
-        for(auto t:mp)
+        //level order traversal karke hi karna hai aur har node ka sum lena hai theeke
+
+        queue<TreeNode*> q;
+
+
+        q.push(root);
+
+        
+        int l=1;
+
+        while(!q.empty())
         {
-            int sum=t.second;
-            int l=t.first;
+              
+            int currlevel_sum=0;
 
-            if(maxsum<sum)
+            int n=q.size();
+
+            while(n--)
             {
-                maxsum=sum;
+                TreeNode* node=q.front();
+                currlevel_sum+=node->val;
+
+                q.pop();
+
+                if(node->left)
+                {
+                    q.push(node->left);
+                }
+
+                if(node->right)
+                {
+                    q.push(node->right);
+                }
+            }
+
+            //yaha pe end pe compare karunga kyuki sum acculate level ka while(n--) waale loop ke baad hora hoga
+
+            if(maxsum<currlevel_sum)
+            {
+                maxsum=currlevel_sum;
                 level=l;
             }
+            l++;
+
         }
 
         return level;
-        
     }
+
 };
