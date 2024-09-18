@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/FANZ3R/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0137-single-number-ii](https://github.com/FANZ3R/leetcode/tree/master/0137-single-number-ii) |
+| [0179-largest-number](https://github.com/FANZ3R/leetcode/tree/master/0179-largest-number) |
 | [0260-single-number-iii](https://github.com/FANZ3R/leetcode/tree/master/0260-single-number-iii) |
 | [0539-minimum-time-difference](https://github.com/FANZ3R/leetcode/tree/master/0539-minimum-time-difference) |
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/FANZ3R/leetcode/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/FANZ3R/leetcode/tree/master/0539-minimum-time-difference) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/FANZ3R/leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 ## Counting
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/FANZ3R/leetcode/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/FANZ3R/leetcode/tree/master/0539-minimum-time-difference) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/FANZ3R/leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/FANZ3R/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -162,4 +165,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/FANZ3R/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+## Greedy
+|  |
+| ------- |
+| [0179-largest-number](https://github.com/FANZ3R/leetcode/tree/master/0179-largest-number) |
 <!---LeetCode Topics End-->
