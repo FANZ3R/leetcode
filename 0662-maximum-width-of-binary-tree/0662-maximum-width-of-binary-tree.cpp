@@ -57,12 +57,12 @@ public:
 
                 if(node->left)
                 {
-                    q.push({node->left,2*idx});
+                    q.push({node->left,2*idx+1});
                 }
 
                 if(node->right)
                 {
-                    q.push({node->right,2*idx+1});
+                    q.push({node->right,2*idx+2});
                 }
             }
         }
