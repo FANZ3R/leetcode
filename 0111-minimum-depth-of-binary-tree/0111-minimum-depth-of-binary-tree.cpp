@@ -11,45 +11,30 @@
  */
 class Solution {
 public:
-    int minDepth(TreeNode* root) {
-        //isko ham bfs se bhi banaskte level waale code se
+    int mindepth =INT_MAX;
 
+    void Dfs(TreeNode* root,int depth)
+    {
         if(root==NULL)
-        return  0;
+        return;
 
-        int depth=1;
-
-        queue<TreeNode*> q;
-        q.push(root);
-
-
-        while(!q.empty())
+        if(root->left==NULL && root->right ==NULL)
         {
-            //ab kyuki level wala code hai toh while(n-- ) daalna padega
-            int n=q.size();
-
-            while(n--)
-            {
-                TreeNode* node=q.front();
-                q.pop();
-
-                //ab yhi pe check karta rahunga har ek ke lie ki leaf node toh nhi hai
-                //agr leaf node toh depth return kardugna kyuki yue depth pehli baar seen hori hai
-
-                if(node->left==NULL && node->right==NULL)
-                return depth;
-
-                if(node->left)
-                q.push(node->left);
-
-                if(node->right)
-                q.push(node->right);
-            }
-
-            depth++;
+            mindepth=min(mindepth,depth);
         }
 
-        return -1;
+        Dfs(root->left,depth+1);
+        Dfs(root->right,depth+1);
+    }
+
+    int minDepth(TreeNode* root) {
+
+        if(root==NULL)
+        return 0;
+
+        Dfs(root,1);
+
+        return mindepth;
         
     }
 };
