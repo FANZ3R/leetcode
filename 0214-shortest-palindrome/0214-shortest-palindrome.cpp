@@ -1,63 +1,85 @@
 class Solution {
 public:
 
-    //ye trick wala method hai 0(n^2) jaayega aur memory exceeded dedega par
-    //u should know
-    //dekh mai sirf front pe append karskta hu apni strign ke 
-    // mai isme sabse bada valid palindrome dhundunga reverse ka help lekr
-    // toh mai pata kaise lagaunga ki kya add krana hai muje
-    // lets take a string "abad" isme muje saaf dikhra hai ki d lagaunga toh aplindrome bnjaayega
-    //but isko agr mai dekh reverse karta hu toh aata hai "daba" 
-            //                                 n original "abad"
-            //phele  mai reverse aur original ko compare karunga nahi hai equal dono
-            //ab mai reverse ke starting se move karna start karunga aur original ke peeche se
-            //toh starting ke d ko chod dunga aur reverse mei aur original ke peeche se d ko chod dunga
-            //toh aba == aba toh mtlb yaha tk shi hai bas muje reverse ka bacha hua string apne original mei append karna hoga
+    void computeLPS(string pattern,vector<int> &LPS)
+    {
+        int m=pattern.size();
+        LPS[0]=0;
+        int length=0;
 
-            // toh return rev.substr(0,i)+ s;
+        int i=1;
 
-            //aur kudx bhi equal nhi ata toh poora hi string add karna padega fir toh
-            //toh return rev+s
+        while(i<m)
+        {
+            if(pattern[i]==pattern[length])
+            {
+                length++;
+                LPS[i]=length;
+                i++;
+            }
+            else
+            {
+                if(length!=0)
+                {
+                    length=LPS[length-1];
+                }
+                else
+                {
+                    LPS[i]=0;
+                    i++;
+                }
+            }
+        }
+
+    }
+
 
     string shortestPalindrome(string s) {
+
+        //ab dekh isko mai kmp wale algorithm ke lps weaale code se karskta 
+        //dekh agr mei reverse kardu apni given string ko 
+        //aur fir muje apni original string ka longest common prefix nikaalna hai jo equal hai suffix ke in reverse
+        //thoda pecheeda laga hoga sunke
+
+        //dekh example le 
+        //"abad" original   reverse "daba"  ab dekh isme longest common prefix which is equal to suffix in reverse hai tera
+        // aba  theeke ye hai valid longest proper prefix jo equal haio suffix ke in reverse
+        //mtlb ye valid palindrome hai...m tlb ye part reverse ka valid hai apne original mei
+
+        //toh bacha hua part kya hai reverse ka "d" after removing lps "aba"
+        //toh agr mei ye d laga du apne original mei "dabad" toh bngya shortest palindrome 
+
+        //toh bas muje lps nikaalna hai ..par lps mei ek hi string jaati hai function mei 
+        //toh mai original ko append kardunga with reverse with '#' as separator
+        //theeke fir lps largest hamesa n-1 pe hota jaaha n pattern ka length hota
+
+        //toh bas remaining culprit jo string ka hoga wo hoga reverse ka starting se to length n-(lps[n-1])
+        //kyuki lps[n-1] length ka toh originally present hai baaki n-(lps[n-1]) add karna hoga
+
         string rev=s;
         reverse(rev.begin(),rev.end());
 
-        int n=s.size();
+        
 
-        for(int i=0;i<n;i++)
-        {
-            // if(s.substr(0,n-i)==rev.substr(i))
-            // return rev.substr(0,i)+s;
+        string pattern= s+"#"+rev;
+        //append kardunga with # as separator
+        //ab bas muje iska ps nikaalna hai
 
-            //ba dekh ye upar wala code run toh hora hai but submit ni hora kyuki memory limit exceeded dera hai
-            //toh isko solve karne ke lie hampe c++ pe hota hai memory comparison ke lie ek option
-            //
+        vector<int> LPS(pattern.size(),0);
 
-            //memcmp krke ek utility hota c++ mei jo ye karne nmmei help karega
+        computeLPS(pattern,LPS);
+        //ek hi string jaati hai LPS function mei
 
-            //ab isme dekh 3 parameter hote  phla ko kis index se compare krre ,dusre ko kis index se compare krre aur 3rd kitne length tak compare krre
-            //toh ye 3 parameters htoe
-            //ab m,ai original ko to starting se compare karunga ...uske peeche walo ko ignore karunga
-            //aur mai reverse ke ith index se start karunga ..... uske starting walo ko chodna ek ek krke start kaunga
-            //aur length comparison ki starign me popoori hogi yaani ki n-i .....aur jaise jaise i badega fir ghat ti jaayegi 
+        //ab mera LPS bangya 
+        int x=LPS.size();
+        int lengthoflongest_LPS=LPS[x-1];
 
-            //aur agr equal aate hai dono string toh memcmp return  0 karta hai
+        //ab itna length equal hai merpe baaki n-lengthoflongest_LPS muje reverse ka starting se add karna hoga apne original mei
 
-            if(!memcmp(s.c_str(), rev.c_str()+i,n-i))
-            {//        prefix     suffix        length comparison ki
-                return rev.substr(0,i)+s;
-            }
+        int n=rev.size();
+        string culprit= rev.substr(0,(n-lengthoflongest_LPS));
 
-        }
-
-        return rev+s;
-
-
-
-
-
-       
+        return culprit+s;
         
     }
 };
