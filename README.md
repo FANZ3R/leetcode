@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/FANZ3R/leetcode/tree/master/0179-largest-number) |
+| [0214-shortest-palindrome](https://github.com/FANZ3R/leetcode/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/FANZ3R/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0539-minimum-time-difference](https://github.com/FANZ3R/leetcode/tree/master/0539-minimum-time-difference) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/FANZ3R/leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -213,4 +214,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1275-validate-binary-tree-nodes](https://github.com/FANZ3R/leetcode/tree/master/1275-validate-binary-tree-nodes) |
+## Rolling Hash
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/FANZ3R/leetcode/tree/master/0214-shortest-palindrome) |
+## String Matching
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/FANZ3R/leetcode/tree/master/0214-shortest-palindrome) |
+## Hash Function
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/FANZ3R/leetcode/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
