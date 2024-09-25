@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/FANZ3R/leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/FANZ3R/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
+| [2755-extra-characters-in-a-string](https://github.com/FANZ3R/leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/FANZ3R/leetcode/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/FANZ3R/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Dynamic Programming
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/FANZ3R/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0338-counting-bits](https://github.com/FANZ3R/leetcode/tree/master/0338-counting-bits) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+| [2755-extra-characters-in-a-string](https://github.com/FANZ3R/leetcode/tree/master/2755-extra-characters-in-a-string) |
 ## Sorting
 |  |
 | ------- |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/FANZ3R/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/FANZ3R/leetcode/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2755-extra-characters-in-a-string](https://github.com/FANZ3R/leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/FANZ3R/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## String
 |  |
@@ -92,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/FANZ3R/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/FANZ3R/leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2755-extra-characters-in-a-string](https://github.com/FANZ3R/leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/FANZ3R/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Prefix Sum
 |  |
@@ -238,5 +242,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/FANZ3R/leetcode/tree/master/0386-lexicographical-numbers) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/FANZ3R/leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2755-extra-characters-in-a-string](https://github.com/FANZ3R/leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/FANZ3R/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 <!---LeetCode Topics End-->
