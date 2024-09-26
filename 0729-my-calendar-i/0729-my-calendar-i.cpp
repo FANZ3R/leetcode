@@ -26,8 +26,8 @@ public:
            if(start<y && x<end)
            return false;
 
-           else if(start==x && end==y)
-           return false;
+        //    else if(start==x && end==y)
+        //    return false;
         }
 
         st.insert({start,end});
