@@ -107,12 +107,12 @@ int nodes_count=0;
             }
             
             //ab mai time tabhi incerase karunga agr mera infection spread hua hoga is level mei
-            if(infectionspread)
+           
                 time++;
 
         }
 
-        return time;
+        return time-1;
 
 
         
