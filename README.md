@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/FANZ3R/leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/FANZ3R/leetcode/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/FANZ3R/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/FANZ3R/leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/FANZ3R/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
 | [2755-extra-characters-in-a-string](https://github.com/FANZ3R/leetcode/tree/master/2755-extra-characters-in-a-string) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/FANZ3R/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/FANZ3R/leetcode/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/FANZ3R/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/FANZ3R/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2755-extra-characters-in-a-string](https://github.com/FANZ3R/leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/FANZ3R/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -135,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1275-validate-binary-tree-nodes](https://github.com/FANZ3R/leetcode/tree/master/1275-validate-binary-tree-nodes) |
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/FANZ3R/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/FANZ3R/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Breadth-First Search
 |  |
@@ -178,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1275-validate-binary-tree-nodes](https://github.com/FANZ3R/leetcode/tree/master/1275-validate-binary-tree-nodes) |
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/FANZ3R/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/FANZ3R/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Depth-First Search
 |  |
