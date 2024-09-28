@@ -13,60 +13,53 @@ class Solution {
 public:
     TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
 
-        //dekh mai map ki help lunga nodes ko assign karne ke lie uske parent aur uske nodes mei
-        //kyuki unique values derakha hai
-        //toh mai har ek integer ke lie har ek node daalunga kab check karne ke baad
-        //aur mai ek set maintain karunga saare childrens ke lie
-        //aur end mei jo nhi present mei wo hi mera root hoga
+        //ek mei to mai store kaunga saare nodes jo ki maine banaye abhitak
+        //aur dusre mei mai store karunga saare children nodes taaki finally return karsaku root
 
         unordered_map<int,TreeNode*> mp;
-        //har integer ka node banaunga toh int, treenode type map
 
-        set<int> st;//isme sirf children ko daalunga
+        set<TreeNode*> st;
+        //this is for all the childrens
 
-        for(auto data:descriptions)
+        for(auto it: descriptions)
         {
-            int p = data[0];
-            int c = data[1];
-            int l = data[2];
+            int parent = it[0];
+            int child  = it[1];
 
-            if(mp.find(p) == mp.end())
+            //ab check karunga kya main pehle se child ya parent ke lie node banaya hua hai
+
+            if(mp.find(parent) == mp.end())
             {
-                mp[p] = new TreeNode(p); 
+                mp[parent] = new TreeNode(parent);
             }
 
-            if(mp.find(c) == mp.end())
+            if(mp.find(child) == mp.end())
             {
-                mp[c] = new TreeNode(c);
+                mp[child] = new TreeNode(child);
             }
 
-            //ab mei parent nodes aur child nodes ko connect karunga on the basis of l 0,1 ke
-            if(l==1)
+            if(it[2]==1)
             {
-                mp[p]->left= mp[c];
+                mp[parent]->left=mp[child];
             }
-
             else
             {
-                mp[p]->right=mp[c];
+                mp[parent]->right = mp[child];
             }
+            
+            st.insert(mp[child]);
 
-            //ab child ko insert kardunga apne set mei 
-            st.insert(c); 
+
         }
 
-        //ab mera tree bhi bangya aur saare childs bhi pata hai muje
-        //toh bas root nikaalna aur root wohi hoga jo child nodes ke set me nhi hoga
-        for(auto data:descriptions)
+        for(auto it: descriptions)
         {
-            int p=data[0];
-            if(st.find(p)==st.end())
+            int p=it[0];
+            if(st.find(mp[p])==st.end())
             {
                 return mp[p];
             }
         }
-
-        //aur nhi mila toh null return kardenge
 
         return NULL;
         
