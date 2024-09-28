@@ -1,31 +1,35 @@
 class MyCircularDeque {
 public:
-vector<int> nums;
-    int K;
+//ek vecotr define karleta hu
+    vector<int> nums;
+    int K;//eys size batata rahega mere nums ka 
     MyCircularDeque(int k) {
+        //iniitially mia K ko equal to k kardubga
         K=k;
-        //nums.resize(k);
+        
     }
     
     bool insertFront(int value) {
-
+        
         if(nums.size()<K)
         {
             nums.insert(nums.begin(),value);
             return true;
         }
         return false;
-
+        
     }
     
     bool insertLast(int value) {
+        
         if(nums.size()<K)
         {
             nums.push_back(value);
             return true;
         }
+
         return false;
-        
+
     }
     
     bool deleteFront() {
@@ -34,6 +38,7 @@ vector<int> nums;
             nums.erase(nums.begin());
             return true;
         }
+
         return false;
 
         
@@ -44,36 +49,35 @@ vector<int> nums;
         {
             nums.pop_back();
             return true;
+            
         }
         return false;
-
         
     }
     
     int getFront() {
         if(nums.size()>0)
-            return nums[0];
-        
+        return nums[0];
+
         return -1;
         
     }
     
     int getRear() {
-        
+
         if(nums.size()>0)
-        {   
-            int n=nums.size();
-            return nums[n-1];
-        }
+        return nums[nums.size()-1];
+
         return -1;
         
     }
     
     bool isEmpty() {
-        if(nums.size()>0)
-        return false;
-
+        if(nums.size()==0)
         return true;
+
+        return false;
+        
     }
     
     bool isFull() {
