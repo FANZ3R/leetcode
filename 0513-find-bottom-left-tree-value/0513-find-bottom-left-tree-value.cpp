@@ -19,11 +19,11 @@ public:
         queue<TreeNode*> q;
         q.push(root);
 
-        queue<TreeNode*> temp;
+        int ans=0;
 
         while(!q.empty())
         {
-            temp=q;
+            ans=q.front()->val;
             int n=q.size();
 
             while(n--)
@@ -43,7 +43,7 @@ public:
             }
         }
 
-        return temp.front()->val;
+        return ans;
         
     }
 };
