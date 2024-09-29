@@ -11,30 +11,41 @@
  */
 class Solution {
 public:
+
+    //dekh phle  maio recursively end tak jaunga
+    //aur niche hi path calculate karne ki kosis karunga by left + right ke nodes
+    //aur kya pata ye wale node se muje max path na mile toh mai 
+    //toh mia parent ko max path is node ki +1 ek edge return kardunga kyuuki jab is node ko paernt se jopdenge toh 
+    //ek edge aur badh jaayegi
+
     int ans=0;
 
-    int calculate(TreeNode* root)
+    int solve(TreeNode* root)
     {
-        if(root==NULL)
+        if(root == NULL)
         return 0;
 
-        //muje bas left aur right ke end tak call karna hai
-        // aur fir return karna  hai max (left, right)+1
-        //kyuki jo ye node wo apne parent node ko is node ka max of left, right toh apne lie rakhega hi
-        //but joo parent node aur is node ko jod ri hai us edge ka count add karke dedega
-        //toh max(left,right) jo is node ka hai but parent ko return krne ke lie max(left,right)+1;
+        //ab pehle niche jaaunga
+        int l = solve(root->left);
+        int r = solve(root->right);
 
-        int left=calculate(root->left);
-        int right=calculate(root->right);
 
-        ans=max(ans,left+right);
-        return max(left,right)+1; 
+        //ab kya pata muje isi node pe apna answer milgya agr 
+        ans= max(ans,l+r);
+        //l+r kyu kyuki is node ke lie max path hoga left wali edges + right wali edges
 
-         
+        //ab mai parent ko return kardunga is node ka max single side ka path + 1 edge of parent to this node
+        return max(l,r)+1;  
     }
+
+
     int diameterOfBinaryTree(TreeNode* root) {
 
-        calculate(root);
-        return ans;      
+        solve(root);
+
+        return ans;
+
+        
+        
     }
 };
