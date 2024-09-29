@@ -12,9 +12,10 @@
 class Solution {
 public:
     int findBottomLeftValue(TreeNode* root) {
-        //mai level order traversal lagake aur ek aur queue lelunga 
-        //jisme ar level ka queue ka replace karta rahunga usime
-        //end mei usme last level ka queue hi bachjayega
+        //mai level order traversal lagake aur last level ka front wala element hi mera left child hoga
+        //toh bas mai har level ko traverse karne se pehle usme ek variable mei levle ka front element store krlunga
+        //end mei usme last level ka queue hi bachjayega aur uska front mere
+        //paas stored hoga
 
         queue<TreeNode*> q;
         q.push(root);
