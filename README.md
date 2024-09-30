@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1435-xor-queries-of-a-subarray](https://github.com/FANZ3R/leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/FANZ3R/leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/FANZ3R/leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/FANZ3R/leetcode/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/FANZ3R/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -291,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/FANZ3R/leetcode/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/FANZ3R/leetcode/tree/master/0732-my-calendar-iii) |
 | [0859-design-circular-deque](https://github.com/FANZ3R/leetcode/tree/master/0859-design-circular-deque) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/FANZ3R/leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Segment Tree
 |  |
 | ------- |
@@ -311,4 +313,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0432-all-oone-data-structure](https://github.com/FANZ3R/leetcode/tree/master/0432-all-oone-data-structure) |
+## Stack
+|  |
+| ------- |
+| [1497-design-a-stack-with-increment-operation](https://github.com/FANZ3R/leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 <!---LeetCode Topics End-->
