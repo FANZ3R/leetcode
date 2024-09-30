@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/FANZ3R/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/FANZ3R/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0222-count-complete-tree-nodes](https://github.com/FANZ3R/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/FANZ3R/leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/FANZ3R/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/FANZ3R/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/FANZ3R/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0222-count-complete-tree-nodes](https://github.com/FANZ3R/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/FANZ3R/leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/FANZ3R/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -215,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/FANZ3R/leetcode/tree/master/0113-path-sum-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/FANZ3R/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/FANZ3R/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/FANZ3R/leetcode/tree/master/0386-lexicographical-numbers) |
 | [0513-find-bottom-left-tree-value](https://github.com/FANZ3R/leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/FANZ3R/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
