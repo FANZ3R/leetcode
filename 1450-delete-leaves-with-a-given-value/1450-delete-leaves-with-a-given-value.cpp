@@ -32,13 +32,13 @@ public:
 
        return  remove(root,target);
 
-        // //mera function saare nodes ko to check karlega 
-        // //but agr last mei root ko bhi delete karna pde 
-        // //toh wo check muje finally khud se hi karna padega
-        // if(root->left==NULL && root->right==NULL && root->val==target)
-        // return NULL;
-
-        // return root;
+        //agr mai alg se phle remove(root,target) call karunga aur fir
+        //aur fir return root karunga
+        //toh aise me dekh root remove nahi hoga agr use remove karna hoga wo sirf return NULL karega
+        //but our root wouldnt have been removed using this
+        //toh root node ko bhi handle krne ke lie 
+        //return remove(root,target); ek hi line mei likhna hoga
+        
         
     }
 };
