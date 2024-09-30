@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1275-validate-binary-tree-nodes](https://github.com/FANZ3R/leetcode/tree/master/1275-validate-binary-tree-nodes) |
+| [1450-delete-leaves-with-a-given-value](https://github.com/FANZ3R/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1275-validate-binary-tree-nodes](https://github.com/FANZ3R/leetcode/tree/master/1275-validate-binary-tree-nodes) |
+| [1450-delete-leaves-with-a-given-value](https://github.com/FANZ3R/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1275-validate-binary-tree-nodes](https://github.com/FANZ3R/leetcode/tree/master/1275-validate-binary-tree-nodes) |
+| [1450-delete-leaves-with-a-given-value](https://github.com/FANZ3R/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
