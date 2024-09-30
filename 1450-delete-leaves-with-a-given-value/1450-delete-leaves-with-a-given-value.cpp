@@ -12,7 +12,7 @@
 class Solution {
 public:
 
-    TreeNode* remove(TreeNode* &root, int target)
+    TreeNode* remove(TreeNode* root, int target)
     {
         if(root == NULL)
         return NULL;
@@ -35,7 +35,7 @@ public:
         //mera function saare nodes ko to check karlega 
         //but agr last mei root ko bhi delete karna pde 
         //toh wo check muje finally khud se hi karna padega
-        if(root->left==NULL && root->right==NULL &&root->val==target)
+        if(root->left==NULL && root->right==NULL && root->val==target)
         return NULL;
 
         return root;
