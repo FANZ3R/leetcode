@@ -1,0 +1,56 @@
+class Solution {
+public:
+    bool canArrange(vector<int>& arr, int k) {
+
+        int n=arr.size();
+        //mai previos approach mei O(n^2) jaara tha jisme mai
+        //har ek ke lie valid paiur dhundra tha thats not worth it
+        //isko direct remainder appraoch se krstke
+
+        //dekh muje remainder ko hi pair up karna hai
+        //remainder 0 waale ek saath pair up honge
+        //agr 7 se divide krra toh remainder 1 wala remainder 6 ke saatha pair up hoga
+        //taaki 7 se divisile hoske
+        //to generalise remainder i must be paired up with remainder k-i;
+
+        //toh mai remainder ke  count store karlunga from 0 to k-1
+
+        vector<int> remainder(k,0);
+        //to store count of remainder fro 0 to k-1;
+
+        for(int x: arr)
+        {
+            //ab mera paas negative numbers bhi hai to unko handle krne ke lie
+            //i will first mod with k ye negative dega fir usko k se add karunga
+            //taaki positive hojaaye aur fir %k wapis karunga taaki its within
+            //range 0 to k-1
+            int rem = (x%k +k)%k;
+            remainder[rem]++; 
+        }
+
+        //ab dekh 0 reaminder waalo ke lie alg se karna hoga 
+        //kyuki 0 waale sirf 0 waale se hi pair hoga
+        //to frequency of remainder 0 should be even to make pairs
+
+        for(int x:remainder)
+        {
+            cout<<x<<endl;
+        }
+
+        if(remainder[0] %2 !=0)
+        return false;
+
+        //ab baaki ko check karlenge
+
+        // i ko k-i ka remainder count must be sam
+        
+        for(int i=1;i<k;i++)
+        {
+            if(remainder[i]!= remainder[k-i])
+            return false;
+        }
+
+        return true;
+        
+    }
+};
