@@ -20,11 +20,13 @@ public:
 
         for(int x: arr)
         {
-            //ab mera paas negative numbers bhi hai to unko handle krne ke lie
-            //i will first mod with k ye negative dega fir usko k se add karunga
-            //taaki positive hojaaye aur fir %k wapis karunga taaki its within
-            //range 0 to k-1
+           //dekh tera number negative bhi hoskta toh fir remainder bhi -ve askta
+           //usko alg se handle karlnege
             int rem = (x%k +k)%k;
+
+            if(rem<0)
+            rem+=k; //negative me utna hi k add krdenge postitive ho jaega
+
             remainder[rem]++; 
         }
 
