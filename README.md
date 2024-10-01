@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1030-smallest-string-starting-from-leaf](https://github.com/FANZ3R/leetcode/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/FANZ3R/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/FANZ3R/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/FANZ3R/leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/FANZ3R/leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/FANZ3R/leetcode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1731-even-odd-tree](https://github.com/FANZ3R/leetcode/tree/master/1731-even-odd-tree) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/FANZ3R/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/FANZ3R/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/FANZ3R/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Breadth-First Search
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1731-even-odd-tree](https://github.com/FANZ3R/leetcode/tree/master/1731-even-odd-tree) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/FANZ3R/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/FANZ3R/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/FANZ3R/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Depth-First Search
@@ -241,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/FANZ3R/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/FANZ3R/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Backtracking
 |  |
