@@ -34,13 +34,23 @@ public:
         if(mp.find(val)==mp.end())
         return false;
 
+        // ab muje remove karne hai elements toh phle toh
+        //i will find the index of the element to be removed
         int idx=mp[val];
+
+        //aur mai last element ko find karlunga kyuki isi place se swap karna hai
+        //muje element to be deleted ko
         int lastele= set.back();
 
+        //ab delete last sei karna toh last mei mai val ko daaldunga
         set.back()=val;
+        //aur jaha pe ye val tha waha pe original last number ko dalldunga
         set[idx]=lastele;
+        //ab dekh very important ab maine last index ko swap to krdiya 
+        //but uski position bhi change hogyii na toh uski position ko bhi map mei update kardenge
         mp[lastele]=idx;
 
+        //and then i will finally erase it from vector and map both
         set.pop_back();
         mp.erase(val);
 
