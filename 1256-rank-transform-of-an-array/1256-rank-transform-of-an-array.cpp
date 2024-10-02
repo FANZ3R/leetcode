@@ -2,8 +2,8 @@ class Solution {
 public:
     vector<int> arrayRankTransform(vector<int>& arr) {
 
-        vector<int> arr2;
-        arr2=arr;
+        vector<int> arr2=arr;
+        
         sort(arr2.begin(),arr2.end());
 
         unordered_map<int,int> mp;
