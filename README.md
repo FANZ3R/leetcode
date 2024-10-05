@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/FANZ3R/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0137-single-number-ii](https://github.com/FANZ3R/leetcode/tree/master/0137-single-number-ii) |
 | [0179-largest-number](https://github.com/FANZ3R/leetcode/tree/master/0179-largest-number) |
+| [0209-minimum-size-subarray-sum](https://github.com/FANZ3R/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0260-single-number-iii](https://github.com/FANZ3R/leetcode/tree/master/0260-single-number-iii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/FANZ3R/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0539-minimum-time-difference](https://github.com/FANZ3R/leetcode/tree/master/0539-minimum-time-difference) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/FANZ3R/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0731-my-calendar-ii](https://github.com/FANZ3R/leetcode/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/FANZ3R/leetcode/tree/master/0732-my-calendar-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/FANZ3R/leetcode/tree/master/1435-xor-queries-of-a-subarray) |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/FANZ3R/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/FANZ3R/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0729-my-calendar-i](https://github.com/FANZ3R/leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/FANZ3R/leetcode/tree/master/0731-my-calendar-ii) |
@@ -376,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/FANZ3R/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/FANZ3R/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/FANZ3R/leetcode/tree/master/0567-permutation-in-string) |
 <!---LeetCode Topics End-->
