@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1694-make-sum-divisible-by-p](https://github.com/FANZ3R/leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1923-sentence-similarity-iii](https://github.com/FANZ3R/leetcode/tree/master/1923-sentence-similarity-iii) |
+| [2211-k-radius-subarray-averages](https://github.com/FANZ3R/leetcode/tree/master/2211-k-radius-subarray-averages) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/FANZ3R/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/FANZ3R/leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/FANZ3R/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
@@ -393,4 +394,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/FANZ3R/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/FANZ3R/leetcode/tree/master/0567-permutation-in-string) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/FANZ3R/leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [2211-k-radius-subarray-averages](https://github.com/FANZ3R/leetcode/tree/master/2211-k-radius-subarray-averages) |
 <!---LeetCode Topics End-->
