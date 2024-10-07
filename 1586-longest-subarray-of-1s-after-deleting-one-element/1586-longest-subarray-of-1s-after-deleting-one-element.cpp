@@ -39,6 +39,9 @@ public:
 
         // if(maxlen==n)
         // return maxlen-1;
+        //isme muje ye condition lagaane ki jrrort hai hi nhi kyuki maine window size me hi ye consider
+        //kiya hua ki muje ek toh delete karna hi hai toh isilie win size j-i liyi hui
+        //instead of j-i+1
         
         return maxlen;
     }
