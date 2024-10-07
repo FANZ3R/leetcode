@@ -1,38 +1,44 @@
 class Solution {
 public:
     int minLength(string s) {
-        //jab bhi string ke beech mei characters  remove karne ka question aata hai 
-        //toh stack mind mei aana chaiye
 
-        //bas isme fir aasaan hogaya 
-        //currrent character and stack ke top wala logic use karlenge
+        // ab interviewer o(1) space complexity ya mtlb inplace solution maangskta
+        //which is also o(n) in time complexity
 
-        stack<char> st;
+        //toh ham kya do pointer lenge i aur j
+        //jaise hi i pe A/C and j pe B/D aayega mai i-- aur j++ karunga
+        //aur agr aisa nahi hai toh s[i] pe s[j] daaldunga
+        // aur i negative bhi soskta puraane operations se toh usko phle hi handle krlenge 
+        
 
-        for(char current_ch: s)
+        int i=0; 
+        int j=1;
+
+        int n=s.size();
+
+        while(j<n)
         {
-            if(st.empty())
+            //ab starting mei negative check krna padega 
+            //kyuki purane operation se syd i -1 hogaya ho
+            if(i<0)
             {
-                st.push(current_ch);
-
+                i++;
+                s[i]=s[j];
             }
-
-            else if(st.top() == 'A' && current_ch == 'B')
-            {
-                st.pop();
-            }
+            else if((s[i] == 'A' && s[j] == 'B') ||
+              (s[i] == 'C' && s[j] == 'D'))
+              {
+                i--;
+              }
             
-            else if(st.top()=='C' && current_ch == 'D')
-            {
-                st.pop();
-            }
-
             else
             {
-                st.push(current_ch);
+                i++;
+                s[i]=s[j];
             }
+              j++;
         }
 
-        return  st.size();
+        return i+1;
     }
 };
