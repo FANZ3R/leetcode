@@ -2,72 +2,72 @@ class Solution {
 public:
     int maxConsecutiveAnswers(string a, int k) {
 
-        // can be done using 2 pass sliding window
-        int n=a.size();
+        //isko mai 2 pass of sliding window se banaunga 
+        //firstly mai tera maanunga ki mai sirf false ko convert karskta true mei
 
+        int countf=0;
         int i=0;
         int j=0;
 
-        
-        int countF=0;
+        int n=a.size();
+
         int result=0;
 
-
-        //first time i will convert all F to T
-       while(j<n)
-       {
-        if(a[j]=='F')
+        //first pass F->T
+        while(j<n)
         {
-            countF++;
-        }
-
-        while(countF>k)
-        {
-            if(a[i]=='F')
+            if(a[j]=='F')
             {
-                countF--;
+                countf++;
             }
 
-            i++;
+            //ab shrink kab karunga window ko jab mera false count >k hoga
+            //kyuki mai k tak ke false ko convert karskta true mai
 
+            while(countf>k)
+            {
+                if(a[i]=='F')
+                {
+                    countf--;
+                }
+                i++;
+            }
+
+            result = max(result,j-i+1);
+            j++;
         }
-        result=max(result,j-i+1);
-        j++;
-       }
 
-       //int the second pass of sliding window i will convert all F to T
+        //aur similar hi code rahega second pass ke lie
+        //second pass T->F
 
-       i=0;
-       j=0;
-
-       int countT=0;
-
-       //T->F
-       while(j<n)
-       {
-        if(a[j]=='T')
+        i=0;
+        j=0;
+        int countt=0;//count of truths
+         while(j<n)
         {
-            countT++;
+            if(a[j]=='T')
+            {
+                countt++;
+            }
+
+            //ab shrink kab karunga window ko jab mera false count >k hoga
+            //kyuki mai k tak ke false ko convert karskta true mai
+
+            while(countt>k)
+            {
+                if(a[i]=='T')
+                {
+                    countt--;
+                }
+                i++;
+            }
+
+            result = max(result,j-i+1);
+            j++;
         }
 
-        while(countT>k)
-        {
-            if(a[i]=='T')
-            countT--;
 
-            i++;
-        }
-
-        result=max(result,j-i+1);
-        j++;
-
-
-       }
-
-
-
-       return result;
-
+        return result;
         
     }
 };
