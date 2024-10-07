@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/FANZ3R/leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1923-sentence-similarity-iii](https://github.com/FANZ3R/leetcode/tree/master/1923-sentence-similarity-iii) |
+| [2134-maximize-the-confusion-of-an-exam](https://github.com/FANZ3R/leetcode/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/FANZ3R/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/FANZ3R/leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/FANZ3R/leetcode/tree/master/2755-extra-characters-in-a-string) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/FANZ3R/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/FANZ3R/leetcode/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1694-make-sum-divisible-by-p](https://github.com/FANZ3R/leetcode/tree/master/1694-make-sum-divisible-by-p) |
+| [2134-maximize-the-confusion-of-an-exam](https://github.com/FANZ3R/leetcode/tree/master/2134-maximize-the-confusion-of-an-exam) |
 ## Tree
 |  |
 | ------- |
@@ -298,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/FANZ3R/leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/FANZ3R/leetcode/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/FANZ3R/leetcode/tree/master/0732-my-calendar-iii) |
+| [2134-maximize-the-confusion-of-an-exam](https://github.com/FANZ3R/leetcode/tree/master/2134-maximize-the-confusion-of-an-exam) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -399,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/FANZ3R/leetcode/tree/master/0567-permutation-in-string) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/FANZ3R/leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/FANZ3R/leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [2134-maximize-the-confusion-of-an-exam](https://github.com/FANZ3R/leetcode/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2211-k-radius-subarray-averages](https://github.com/FANZ3R/leetcode/tree/master/2211-k-radius-subarray-averages) |
 ## Simulation
 |  |
