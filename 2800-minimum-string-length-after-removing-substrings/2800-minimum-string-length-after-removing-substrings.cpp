@@ -2,6 +2,9 @@ class Solution {
 public:
     int minLength(string s) {
 
+        // agr simple stack wala chaiye to puraane submissions dekhle
+        //but optimal wala interviewer pooch skta toh ye hi hia
+
         // ab interviewer o(1) space complexity ya mtlb inplace solution maangskta
         //which is also o(n) in time complexity
 
