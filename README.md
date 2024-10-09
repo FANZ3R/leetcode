@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1435-xor-queries-of-a-subarray](https://github.com/FANZ3R/leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/FANZ3R/leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/FANZ3R/leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1511-count-number-of-teams](https://github.com/FANZ3R/leetcode/tree/master/1511-count-number-of-teams) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/FANZ3R/leetcode/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/FANZ3R/leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/FANZ3R/leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/FANZ3R/leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0338-counting-bits](https://github.com/FANZ3R/leetcode/tree/master/0338-counting-bits) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+| [1511-count-number-of-teams](https://github.com/FANZ3R/leetcode/tree/master/1511-count-number-of-teams) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/FANZ3R/leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2755-extra-characters-in-a-string](https://github.com/FANZ3R/leetcode/tree/master/2755-extra-characters-in-a-string) |
 ## Sorting
@@ -370,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/FANZ3R/leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/FANZ3R/leetcode/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/FANZ3R/leetcode/tree/master/0732-my-calendar-iii) |
+| [1511-count-number-of-teams](https://github.com/FANZ3R/leetcode/tree/master/1511-count-number-of-teams) |
 ## Ordered Set
 |  |
 | ------- |
@@ -422,4 +425,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/FANZ3R/leetcode/tree/master/0307-range-sum-query-mutable) |
+| [1511-count-number-of-teams](https://github.com/FANZ3R/leetcode/tree/master/1511-count-number-of-teams) |
 <!---LeetCode Topics End-->
