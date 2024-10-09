@@ -306,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/FANZ3R/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0209-minimum-size-subarray-sum](https://github.com/FANZ3R/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/FANZ3R/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0374-guess-number-higher-or-lower](https://github.com/FANZ3R/leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [0729-my-calendar-i](https://github.com/FANZ3R/leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/FANZ3R/leetcode/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/FANZ3R/leetcode/tree/master/0732-my-calendar-iii) |
@@ -436,4 +437,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/FANZ3R/leetcode/tree/master/0074-search-a-2d-matrix) |
+## Interactive
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/FANZ3R/leetcode/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
