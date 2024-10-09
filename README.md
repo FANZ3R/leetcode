@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0539-minimum-time-difference](https://github.com/FANZ3R/leetcode/tree/master/0539-minimum-time-difference) |
 | [0729-my-calendar-i](https://github.com/FANZ3R/leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/FANZ3R/leetcode/tree/master/0731-my-calendar-ii) |
+| [0792-binary-search](https://github.com/FANZ3R/leetcode/tree/master/0792-binary-search) |
 | [0859-design-circular-deque](https://github.com/FANZ3R/leetcode/tree/master/0859-design-circular-deque) |
 | [1207-delete-nodes-and-return-forest](https://github.com/FANZ3R/leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1256-rank-transform-of-an-array](https://github.com/FANZ3R/leetcode/tree/master/1256-rank-transform-of-an-array) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/FANZ3R/leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/FANZ3R/leetcode/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/FANZ3R/leetcode/tree/master/0732-my-calendar-iii) |
+| [0792-binary-search](https://github.com/FANZ3R/leetcode/tree/master/0792-binary-search) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/FANZ3R/leetcode/tree/master/2134-maximize-the-confusion-of-an-exam) |
 ## Divide and Conquer
 |  |
