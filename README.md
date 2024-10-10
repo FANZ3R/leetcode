@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1923-sentence-similarity-iii](https://github.com/FANZ3R/leetcode/tree/master/1923-sentence-similarity-iii) |
 | [2211-k-radius-subarray-averages](https://github.com/FANZ3R/leetcode/tree/master/2211-k-radius-subarray-averages) |
+| [2294-minimum-time-to-complete-trips](https://github.com/FANZ3R/leetcode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/FANZ3R/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/FANZ3R/leetcode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2519-find-the-original-array-of-prefix-xor](https://github.com/FANZ3R/leetcode/tree/master/2519-find-the-original-array-of-prefix-xor) |
@@ -313,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0732-my-calendar-iii](https://github.com/FANZ3R/leetcode/tree/master/0732-my-calendar-iii) |
 | [0792-binary-search](https://github.com/FANZ3R/leetcode/tree/master/0792-binary-search) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/FANZ3R/leetcode/tree/master/2134-maximize-the-confusion-of-an-exam) |
+| [2294-minimum-time-to-complete-trips](https://github.com/FANZ3R/leetcode/tree/master/2294-minimum-time-to-complete-trips) |
 ## Divide and Conquer
 |  |
 | ------- |
