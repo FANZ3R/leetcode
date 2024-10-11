@@ -2,53 +2,68 @@ class Solution {
 public:
     int smallestChair(vector<vector<int>>& times, int targetFriend) {
 
-        //dekh pehle to brute force se hi kardenge isko
-        //mai chair vector lelunga ek n size ka hi
-        //aur usme -1 daaldunga initially
-        //aur agr chair ki value less than hai arrival time friend ke 
-        //friends ko phle sort karunga based on arrival time 
-        //aur agr less hai value toh chiar waale vector mei mai uska departure time daal dunga
-        //kyuki agr departure opf prev is less than arrival of next toh naye bande ko bitha skte isme
+        // /toh dekh ab mai optimal soultion se karta hu isko
+        //theeke tohdkeh muje hamesa lowest available chair deni hai apne friedn ko
+        //toh ye mai priortiy queue se maintain krskta 
 
-        //aur mai target arrival time ko pehle hi store karlunga
-        //aur har time ke lioe chioar vector ko iterate karunga 
-        //aur jaisi hi daaldunga value toh break karjuanga taaki aage kisi glt index mei na daaldu value ko in brute force approach
+        //aur agr khaali hui multiple chairs toh usme se bhi muje miniimum chair nikalwaani hai
+        //toh usek lie alg priority queueu lelunga
+        //firs pq mei mai departure time aur chairnumber ko daalung jo ki departure time ke basis pe sort hogi
+
+        priority_queue<pair<int,int>,vector<pair<int,int>> , greater<pair<int,int>>> occupied;
+
+        priority_queue<int,vector<int>, greater<int>> free;
 
         int n=times.size();
 
-        vector<int> chairs(n,-1);
+        int targetarrival=times[targetFriend][0];
 
-       
-
-        int targetarrivaltime =times[targetFriend][0];
-
-         //pehle srot ont the basis of arrival time
         sort(times.begin(),times.end());
 
-        for(vector<int> &time:times)
+
+
+        int chairno=0;
+
+        for(int i=0;i<n;i++)
         {
-            int arrival = time[0];
-            int depart =  time[1];
+            int arrival = times[i][0];
+            int depart =  times[i][1];
 
-            for(int i=0;i<n;i++)
+            while(!occupied.empty() && occupied.top().first<= arrival)
             {
-                if(chairs[i]<=arrival)
+                //toh nmtlb mai is chair ko free kar skta hu
+                //toh free wale mei is chair number ko daaldunga
+                free.push(occupied.top().second);
+                occupied.pop();
+
+
+            }
+
+            if(free.empty())//no free chairs available
+            {
+                occupied.push({depart,chairno});
+                if(arrival == targetarrival)
+                return chairno;
+
+                chairno++;
+            }
+            else
+            {
+                int leastchairavailable=free.top();
+
+                free.pop();
+                if(arrival == targetarrival)
                 {
-                    chairs[i]=depart;
-
-                    if(arrival==targetarrivaltime)
-                    {
-                        return i;
-                    }
-
-                    break;
-                    //kyuki chairs[i] pe depart daal diya ab aage waali chairs khaali hongi
-                    //but muje sbse choti pe daalna tha maine daal diya toh break karjaunga
+                    return leastchairavailable;
                 }
+
+                occupied.push({depart,leastchairavailable});
             }
         }
 
-        return -1; 
-      
+
+        return -1;
+
+        
     }
 };
