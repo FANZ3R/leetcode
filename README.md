@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/FANZ3R/leetcode/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/FANZ3R/leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/FANZ3R/leetcode/tree/master/1694-make-sum-divisible-by-p) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/FANZ3R/leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/FANZ3R/leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/FANZ3R/leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1197-parsing-a-boolean-expression](https://github.com/FANZ3R/leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/FANZ3R/leetcode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/FANZ3R/leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/FANZ3R/leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/FANZ3R/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1923-sentence-similarity-iii](https://github.com/FANZ3R/leetcode/tree/master/1923-sentence-similarity-iii) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/FANZ3R/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -306,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0113-path-sum-ii](https://github.com/FANZ3R/leetcode/tree/master/0113-path-sum-ii) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/FANZ3R/leetcode/tree/master/1030-smallest-string-starting-from-leaf) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/FANZ3R/leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 ## Binary Search
 |  |
 | ------- |
