@@ -3,6 +3,19 @@ public:
 
     void solve(string s,unordered_set<string> &st, int i,int currcount,int &maxcount)
     {
+        //ab isme pruning bhi daaal skta
+        //kyuki agr isi bhi index pe hu toh uske baad max unique string kitne mil skte jitne character hone
+        //wo max tabhi milenge jab teeno unique characters honge
+
+        //but max utne hi milskte 
+
+        // toh
+
+        if(currcount + s.size()-i < maxcount)
+        return ; 
+
+
+
         if(i == s.size())
         {
             maxcount = max(currcount , maxcount);
