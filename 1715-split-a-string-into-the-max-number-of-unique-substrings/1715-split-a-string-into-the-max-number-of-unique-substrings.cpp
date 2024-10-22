@@ -1,5 +1,6 @@
 class Solution {
 public:
+//ab isme pruning bhi krskte but apne upr wo
 
     void solve(string s,int i, unordered_set<string>&st,int currcount,int &maxcount)
     {
@@ -16,6 +17,12 @@ public:
             {
                 st.insert(sub); //DO
                 solve(s,j+1,st,currcount+1,maxcount); //EXPLORE
+
+                //ab dekh yaha pe j+1 kyu kar rahei? instead of i+1
+                //kyuki j tak ka substring mei lelunga fir muje next jisme split karna wo j+1 se hi milega
+                //kyuki maanle maine aba ko split maara ababccc mei toh mera i toh abhi bhi 0 pe hai  but j=2
+                //toh next split ke lie bccc bacha jiske lie starting index 3 hai jo ki j+1 se hi aayega
+                
                 st.erase(sub); //UNDO
             }
         }
