@@ -198,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0832-binary-tree-pruning](https://github.com/FANZ3R/leetcode/tree/master/0832-binary-tree-pruning) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0904-leaf-similar-trees](https://github.com/FANZ3R/leetcode/tree/master/0904-leaf-similar-trees) |
+| [0988-flip-equivalent-binary-trees](https://github.com/FANZ3R/leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/FANZ3R/leetcode/tree/master/1030-smallest-string-starting-from-leaf) |
@@ -257,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0832-binary-tree-pruning](https://github.com/FANZ3R/leetcode/tree/master/0832-binary-tree-pruning) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0904-leaf-similar-trees](https://github.com/FANZ3R/leetcode/tree/master/0904-leaf-similar-trees) |
+| [0988-flip-equivalent-binary-trees](https://github.com/FANZ3R/leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/FANZ3R/leetcode/tree/master/1030-smallest-string-starting-from-leaf) |
@@ -295,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0832-binary-tree-pruning](https://github.com/FANZ3R/leetcode/tree/master/0832-binary-tree-pruning) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0904-leaf-similar-trees](https://github.com/FANZ3R/leetcode/tree/master/0904-leaf-similar-trees) |
+| [0988-flip-equivalent-binary-trees](https://github.com/FANZ3R/leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/FANZ3R/leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/FANZ3R/leetcode/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/FANZ3R/leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
