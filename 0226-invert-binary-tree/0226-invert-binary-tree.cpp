@@ -17,6 +17,10 @@ public:
         return NULL;
 
         TreeNode *temp=root->left;
+        //ab dekh jab mai left ko right se swap kardunga
+        //fir mai right ko left se swap karne jaara
+        //but left toh change hogaya na
+        //isilie left ko pehle hi store kardenge
 
         root->left = invertTree(root->right);
 
