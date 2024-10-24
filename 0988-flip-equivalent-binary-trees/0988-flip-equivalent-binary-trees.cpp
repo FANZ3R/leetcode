@@ -32,9 +32,9 @@ public:
         //toh ek baar mai flipped wale pe check karunga aur ek baar notflipped
         //ab dono hi shi hoskte toh agr ek bhi true mila dono me se toh sahi hai true hai
 
-        bool not_flipped = flipEquiv(root1->left,root2->left) && flipEquiv(root1->right,root2->right);
-
         bool flipped     = flipEquiv(root1->left,root2->right) && flipEquiv(root1->right,root2->left);
+
+        bool not_flipped = flipEquiv(root1->left,root2->left) && flipEquiv(root1->right,root2->right);
 
         return flipped || not_flipped;
         
